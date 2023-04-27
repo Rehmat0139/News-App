@@ -14,7 +14,7 @@ export class App extends Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/News-app"><News key='general' pageSize={this.pageSize} country='in' category='general' /></Route>
+            <Route exact path="/News-App"><News key='general' pageSize={this.pageSize} country='in' category='general' /></Route>
             <Route exact path="/business"><News key='business' pageSize={this.pageSize} country='in' category='business' /></Route>
             <Route exact path="/entertainment"><News key='entertainment' pageSize={this.pageSize} country='in' category='entertainment' /></Route>
             <Route exact path="/health"><News key='health' pageSize={this.pageSize} country='in' category='health' /></Route>
